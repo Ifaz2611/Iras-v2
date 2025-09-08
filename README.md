@@ -36,21 +36,13 @@ cd university-student-records
 2. Install dependencies:
 npm install
 
-3. Environment Variables:
-
-Create a .env.local file in the root directory and add the following:
-
-NEXT_PUBLIC_API_URL=http://localhost:5000/api
-DATABASE_URL=mongodb://localhost:27017/university_db
-JWT_SECRET=your_secret_key
-
-4. Running the development server:
+3. Running the development server:
 npm run dev
 
 
 The application will be running at http://localhost:3000.
 
-5. Run the Backend Server:
+4. Run the Backend Server:
 
 In a separate terminal window, navigate to the backend directory (if using a separate backend) and run:
 
